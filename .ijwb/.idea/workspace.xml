@@ -14,15 +14,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/day1_803cd019.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_b9131a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_jdk7_b9131a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_jdk8_b9131a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/kotlin/day1/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/kotlin/day1/Day1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/resources/day1/BUILD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/resources/day1/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,8 +39,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="218">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+              <folding>
+                <element signature="e#14#72#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/main/kotlin/util/BUILD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/main/kotlin/util/Resources.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -53,8 +69,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/BUILD">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="255">
+              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -87,8 +103,10 @@
         <option value="$PROJECT_DIR$/../WORKSPACE" />
         <option value="$PROJECT_DIR$/../src/kotlin/day1/BUILD" />
         <option value="$PROJECT_DIR$/../src/kotlin/day1/Day1.kt" />
-        <option value="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" />
         <option value="$PROJECT_DIR$/../src/main/resources/day1/BUILD" />
+        <option value="$PROJECT_DIR$/../src/main/kotlin/util/BUILD" />
+        <option value="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" />
+        <option value="$PROJECT_DIR$/../src/main/kotlin/util/Resources.kt" />
         <option value="$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt" />
       </list>
     </option>
@@ -102,12 +120,93 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aoc2018" type="58d84e3e:PackageViewProjectNode" />
+              <item name=".workspace" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,10 +243,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bazel Command.Bazel build day1:day1 (1)">
+  <component name="RunManager" selected="Bazel Command.Bazel run day1:day1-binary (1)">
     <configuration name="Bazel build day1:day1 (1)" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
       <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" blaze-command="build">
-        <blaze-target>//src/main/kotlin/day1:day1</blaze-target>
+        <blaze-target kind="kt_jvm_library">//src/main/kotlin/day1:day1</blaze-target>
       </blaze-settings>
       <method v="2">
         <option name="Blaze.BeforeRunTask" enabled="true" />
@@ -156,6 +255,14 @@
     <configuration name="Bazel build day1:day1" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
       <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" blaze-command="build">
         <blaze-target kind="kt_jvm_library">//src/kotlin/day1:day1</blaze-target>
+      </blaze-settings>
+      <method v="2">
+        <option name="Blaze.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Bazel run day1:day1-binary (1)" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
+      <blaze-settings handler-id="BlazeJavaRunConfigurationHandlerProvider" blaze-command="run">
+        <blaze-target kind="kt_jvm_binary">//src/main/kotlin/day1:day1-binary</blaze-target>
       </blaze-settings>
       <method v="2">
         <option name="Blaze.BeforeRunTask" enabled="true" />
@@ -171,6 +278,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Bazel Command.Bazel run day1:day1-binary (1)" />
         <item itemvalue="Bazel Command.Bazel build day1:day1 (1)" />
         <item itemvalue="Bazel Command.Bazel run day1:day1-binary" />
       </list>
@@ -202,14 +310,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880952" visible="true" weight="0.32990867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49821427" visible="true" weight="0.32990867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Blaze Problems" order="8" sideWeight="0.49940476" weight="0.32990867" />
-      <window_info anchor="bottom" id="Blaze Console" order="9" sideWeight="0.5011905" side_tool="true" visible="true" weight="0.32990867" />
+      <window_info anchor="bottom" id="Blaze Problems" order="8" sideWeight="0.49880952" weight="0.32990867" />
+      <window_info anchor="bottom" id="Blaze Console" order="9" sideWeight="0.5017857" side_tool="true" visible="true" weight="0.32990867" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -255,13 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/BUILD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../out/production/aoc2018/day1/Day1.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -276,10 +377,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/net/URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="824" column="18" selection-start-line="824" selection-start-column="18" selection-end-line="824" selection-end-column="18" />
+          <folding>
+            <element signature="e#30877#30878#0" expanded="true" />
+            <element signature="e#30904#30905#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/util/Resources.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/util/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/resources/day1/input.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="218">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#14#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

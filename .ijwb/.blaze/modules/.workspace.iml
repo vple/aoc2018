@@ -5,7 +5,6 @@
     <content url="file://$MODULE_DIR$/../../..">
       <sourceFolder url="file://$MODULE_DIR$/../../.." isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../../src/main/kotlin" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-aoc2018" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
@@ -14,8 +13,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="day1_ce6c6717" level="project" />
+    <orderEntry type="library" name="kotlin-stdlib-jdk8_b9131a" level="project" />
+    <orderEntry type="library" name="kotlin-stdlib-jdk7_b9131a" level="project" />
+    <orderEntry type="library" name="day1-binary_ce6c6717" level="project" />
     <orderEntry type="library" name="day1_803cd019" level="project" />
+    <orderEntry type="library" name="kotlin-stdlib_b9131a" level="project" />
     <orderEntry type="library" name="day1-binary_803cd019" level="project" />
-    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>
