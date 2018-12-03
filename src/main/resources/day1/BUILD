@@ -2,6 +2,6 @@ filegroup(
     name = "day1",
     srcs = glob(["*.txt"]),
     visibility = [
-        "//src/kotlin/day1:__subpackages__",
+        "//src/main/kotlin/day1:__subpackages__",
     ],
 )

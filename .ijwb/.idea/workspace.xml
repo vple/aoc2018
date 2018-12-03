@@ -8,86 +8,62 @@
     <option name="projectViewFile" value="$PROJECT_DIR$/.bazelproject" />
     <option name="workspaceRoot" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="BlazeSyncStatusState">
+    <option name="dirty" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="" />
+    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.blaze/modules/.workspace.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/day1_803cd019.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_b9131a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_jdk7_b9131a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/kotlin_stdlib_jdk8_b9131a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/kotlin/day1/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/kotlin/day1/Day1.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/resources/day1/BUILD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/resources/day1/input.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1738884009">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="BUILD" value="2" />
-          <entry key="WORKSPACE" value="1" />
-          <entry key="kt" value="2" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="BUILD" value="3" />
-          <entry key="Kotlin" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="BUILD" value="305" />
-          <entry key="WORKSPACE" value="145" />
-          <entry key="kt" value="117" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="BUILD" value="450" />
-          <entry key="Kotlin" value="117" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../WORKSPACE">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/kotlin/day1/Day1.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="120">
+              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/kotlin/day1/BUILD">
+        <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/resources/day1/BUILD">
+        <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/BUILD">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../src/main/resources/day1/BUILD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -109,8 +85,11 @@
       <list>
         <option value="$PROJECT_DIR$/../src/resources/day1/BUILD" />
         <option value="$PROJECT_DIR$/../WORKSPACE" />
-        <option value="$PROJECT_DIR$/../src/kotlin/day1/Day1.kt" />
         <option value="$PROJECT_DIR$/../src/kotlin/day1/BUILD" />
+        <option value="$PROJECT_DIR$/../src/kotlin/day1/Day1.kt" />
+        <option value="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" />
+        <option value="$PROJECT_DIR$/../src/main/resources/day1/BUILD" />
+        <option value="$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt" />
       </list>
     </option>
   </component>
@@ -127,6 +106,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,46 +118,19 @@
             <path>
               <item name="aoc2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="aoc2018" type="34d14456:WorkspaceRootNode" />
-              <item name="src" type="81dbbfc7:BlazePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aoc2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aoc2018" type="34d14456:WorkspaceRootNode" />
-              <item name="src" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="kotlin" type="81dbbfc7:BlazePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aoc2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aoc2018" type="34d14456:WorkspaceRootNode" />
-              <item name="src" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="kotlin" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="day1" type="81dbbfc7:BlazePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aoc2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aoc2018" type="34d14456:WorkspaceRootNode" />
-              <item name="src" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="resources" type="81dbbfc7:BlazePsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aoc2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aoc2018" type="34d14456:WorkspaceRootNode" />
-              <item name="src" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="resources" type="81dbbfc7:BlazePsiDirectoryNode" />
-              <item name="day1" type="81dbbfc7:BlazePsiDirectoryNode" />
+              <item name="main" type="81dbbfc7:BlazePsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,7 +144,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bazel Command.Bazel run day1:day1-binary">
+  <component name="RunManager" selected="Bazel Command.Bazel build day1:day1 (1)">
+    <configuration name="Bazel build day1:day1 (1)" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
+      <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" blaze-command="build">
+        <blaze-target>//src/main/kotlin/day1:day1</blaze-target>
+      </blaze-settings>
+      <method v="2">
+        <option name="Blaze.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Bazel build day1:day1" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
       <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" blaze-command="build">
         <blaze-target kind="kt_jvm_library">//src/kotlin/day1:day1</blaze-target>
@@ -200,21 +162,17 @@
       </method>
     </configuration>
     <configuration name="Bazel run day1:day1-binary" type="BlazeCommandRunConfigurationType" factoryName="Bazel Command" temporary="true" nameIsGenerated="true">
-      <blaze-settings handler-id="BlazeCommandGenericRunConfigurationHandlerProvider" blaze-command="run">
-        <blaze-target>//src/kotlin/day1:day1-binary</blaze-target>
+      <blaze-settings handler-id="BlazeJavaRunConfigurationHandlerProvider" blaze-command="run">
+        <blaze-target kind="kt_jvm_binary">//src/kotlin/day1:day1-binary</blaze-target>
       </blaze-settings>
       <method v="2">
         <option name="Blaze.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Bazel Command.Bazel build day1:day1" />
-      <item itemvalue="Bazel Command.Bazel run day1:day1-binary" />
-    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bazel Command.Bazel build day1:day1 (1)" />
         <item itemvalue="Bazel Command.Bazel run day1:day1-binary" />
-        <item itemvalue="Bazel Command.Bazel build day1:day1" />
       </list>
     </recent_temporary>
   </component>
@@ -235,37 +193,35 @@
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Blaze Problems" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Blaze Console" sideWeight="0.5005952" side_tool="true" visible="true" weight="0.32990867" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49940476" visible="true" weight="0.32990867" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880952" visible="true" weight="0.32990867" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Blaze Problems" order="8" sideWeight="0.49940476" weight="0.32990867" />
+      <window_info anchor="bottom" id="Blaze Console" order="9" sideWeight="0.5011905" side_tool="true" visible="true" weight="0.32990867" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../src/resources/day1/input.txt">
@@ -273,29 +229,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/resources/day1/BUILD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WORKSPACE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="70" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../src/kotlin/day1/Day1.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../src/kotlin/day1/BUILD">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/kotlin/day1/Day1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/resources/day1/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../out/production/aoc2018/day1/Day1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WORKSPACE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>

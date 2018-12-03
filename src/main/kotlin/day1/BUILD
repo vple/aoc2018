@@ -3,6 +3,9 @@ load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_jvm_library", "kt_jvm_bina
 kt_jvm_library(
     name = "day1",
     srcs = glob(["*.kt"]),
+    resources = [
+        "//src/main/resources/day1",
+    ],
 )
 
 kt_jvm_binary(
@@ -13,6 +16,6 @@ kt_jvm_binary(
 #    ],
     srcs = glob(["*.kt"]),
     resources = [
-        "//src/resources/day1",
+        "//src/main/resources/day1",
     ],
 )
