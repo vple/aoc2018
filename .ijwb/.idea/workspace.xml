@@ -12,9 +12,7 @@
     <option name="dirty" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt" afterDir="false" />
-    </list>
+    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+              <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../src/main/resources/day3/BUILD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -77,6 +84,7 @@
         <option value="$PROJECT_DIR$/../src/main/kotlin/day2/BUILD" />
         <option value="$PROJECT_DIR$/../src/main/resources/day2/BUILD" />
         <option value="$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt" />
+        <option value="$PROJECT_DIR$/../src/main/resources/day3/BUILD" />
       </list>
     </option>
   </component>
@@ -179,6 +187,15 @@
               <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="day2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="aoc2018" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="workspace" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="~/aoc2018" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="day3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -220,6 +237,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../src/main/resources/day3" />
       <recent name="$PROJECT_DIR$/../src/main/resources/day2" />
       <recent name="$PROJECT_DIR$/../src/main/kotlin/day2" />
     </key>
@@ -460,7 +478,14 @@
     <entry file="file://$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="70" column="24" lean-forward="true" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+          <caret line="70" column="24" selection-start-line="70" selection-start-column="24" selection-end-line="70" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../src/main/resources/day3/BUILD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
         </state>
       </provider>
     </entry>
