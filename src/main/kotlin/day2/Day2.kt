@@ -15,6 +15,10 @@ fun main(args: Array<String>) {
     println("Part 1")
     val checksum = computeChecksum(boxIds)
     println(checksum)
+
+    println("Part 2")
+    val commonLetters = findCommonLetters(boxIds)
+    println(commonLetters)
 }
 
 /**
@@ -49,3 +53,33 @@ fun String.containsExactly2() = this.containsExactlyN(2)
  * Returns true if this string contains exactly 3 of any letter.
  */
 fun String.containsExactly3() = this.containsExactlyN(3)
+
+/**
+ * Finds all common letters between any pair of [boxIds] that differ by one letter.
+ *
+ * Requires that all box IDs are the same length.
+ */
+fun findCommonLetters(boxIds: List<String>): Set<String> {
+    val idLength = boxIds.map { it.count() }.toSet().single()
+    val differingIndex = (0 until idLength).first { hasSimilarIdsAt(it, boxIds) }
+    val commonLetters =
+        boxIds.map { it.removeAt(differingIndex) }
+            .groupingBy { it }
+            .eachCount()
+            .filter { it.value > 1 }
+            .keys
+    return commonLetters
+}
+
+/**
+ * Returns true if the [boxIds] contains two IDs that differ exactly at [index].
+ */
+fun hasSimilarIdsAt(index: Int, boxIds: List<String>): Boolean {
+    val boxIdsWithoutIndex = boxIds.map { it.removeAt(index) }.toSet()
+    return boxIdsWithoutIndex.count() != boxIds.count()
+}
+
+/**
+ * Removes the character at the given [index], returning the result.
+ */
+fun String.removeAt(index: Int) = this.removeRange(index..index)
