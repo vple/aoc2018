@@ -12,50 +12,12 @@
     <option name="dirty" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day1/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day01/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day1/Day1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day01/Day01.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day2/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day02/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day2/Day2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day02/Day02.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day3/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day03/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day3/Claim.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day03/Claim.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day3/Coordinate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day03/Coordinate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/kotlin/day3/Day3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/kotlin/day03/Day03.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day1/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day01/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day1/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day01/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day2/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day02/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day02/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day3/BUILD" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day03/BUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/day3/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/resources/day03/input.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5ffe8265-0fad-4829-a8c6-cbe88e7fa2ef" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../src/main/resources/day01/BUILD">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../src/main/resources/day02/BUILD">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -333,7 +295,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +473,7 @@
     <entry file="file://$PROJECT_DIR$/../src/main/resources/day01/BUILD">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
