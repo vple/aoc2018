@@ -1,4 +1,4 @@
-package day3
+package day03
 
 /**
  * Represents a square inch on the piece of fabric.

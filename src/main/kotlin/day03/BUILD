@@ -1,13 +1,13 @@
 load("@io_bazel_rules_kotlin//kotlin:kotlin.bzl", "kt_jvm_binary")
 
 kt_jvm_binary(
-    name = "day3",
-    main_class = "day3.Day3Kt",
+    name = "day03",
+    main_class = "day03.Day03Kt",
     srcs = glob(["*.kt"]),
     deps = [
         "//src/main/kotlin/util",
     ],
     resources = [
-        "//src/main/resources/day3",
+        "//src/main/resources/day03",
     ],
 )

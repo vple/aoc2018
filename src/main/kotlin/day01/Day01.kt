@@ -1,4 +1,4 @@
-package day1
+package day01
 
 import util.loadResource
 import java.lang.RuntimeException
@@ -7,7 +7,7 @@ import java.lang.RuntimeException
  * Solutions for [Advent of Code Day 1](https://adventofcode.com/2018/day/1).
  */
 
-const val INPUT_FILE = "/day1/input.txt"
+const val INPUT_FILE = "/day01/input.txt"
 
 fun main(args: Array<String>) {
     val input = loadResource(INPUT_FILE)

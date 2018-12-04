@@ -1,4 +1,4 @@
-package day2
+package day02
 
 import util.loadResource
 
@@ -6,7 +6,7 @@ import util.loadResource
  * Solutions for [Advent of Code Day 2](https://adventofcode.com/2018/day/2).
  */
 
-const val INPUT_FILE = "/day2/input.txt"
+const val INPUT_FILE = "/day02/input.txt"
 
 fun main(args: Array<String>) {
     val input = loadResource(INPUT_FILE)
