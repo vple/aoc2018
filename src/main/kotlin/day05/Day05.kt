@@ -24,8 +24,10 @@ fun main(args: Array<String>) {
  * Finds the length of the shortest polymer formed by removing all instances of one unit and reacting the result.
  */
 fun findShortestReactedPolymerLength(polymer: String): Int {
+    // This doesn't change the final result, but reduces the number of reactions when finding the shortest polymer.
+    val reactedPolymer = polymer.react()
     return ('A'..'Z')
-        .map { polymer.removeUnit(it) }
+        .map { reactedPolymer.removeUnit(it) }
         .map { it.react() }
         .map { it.count() }
         .min()!!
