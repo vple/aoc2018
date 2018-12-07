@@ -67,7 +67,7 @@ fun scheduleHelper(
     val availableSteps = remainingSteps - remainingDependencies.map { it.second }
     val availableWorkers = numWorkers - currentSteps.size
     val steps = availableSteps.sorted().take(availableWorkers)
-    val nextSchedule = schedule + steps.map { Pair(it, currentTime)}
+    val nextSchedule = schedule + steps.map { Pair(it, currentTime) }
 
     val nextCompletedStepTime = nextSchedule
         .filterKeys { currentSteps.contains(it) || steps.contains(it) }
