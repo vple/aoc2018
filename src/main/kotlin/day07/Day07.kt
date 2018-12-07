@@ -45,36 +45,36 @@ fun schedule(
 }
 
 /**
- * Recursive helper function to sequence the [dependencies].
+ * Recursive helper function to schedule the [dependencies].
  */
 fun scheduleHelper(
-    sequence: Map<Char, Int> = mapOf(), // Step to start time
+    schedule: Map<Char, Int> = mapOf(), // Step to start time
     dependencies: List<Pair<Char, Char>>,
     allSteps: Set<Char>,
     numWorkers: Int,
     stepTime: (Char) -> Int,
     currentTime: Int = 0
 ): Map<Char, Int> {
-    val completedSteps = sequence.filter { (step, start) -> start + stepTime(step) <= currentTime }.keys
-    val currentSteps = sequence.filterKeys { !completedSteps.contains(it) }.keys
+    val completedSteps = schedule.filter { (step, start) -> start + stepTime(step) <= currentTime }.keys
+    val currentSteps = schedule.filterKeys { !completedSteps.contains(it) }.keys
     val remainingSteps = allSteps - completedSteps - currentSteps
 
     if (remainingSteps.isEmpty()) {
-        return sequence
+        return schedule
     }
 
     val remainingDependencies = dependencies.filterNot { (step, _) -> completedSteps.contains(step) }
     val availableSteps = remainingSteps - remainingDependencies.map { it.second }
     val availableWorkers = numWorkers - currentSteps.size
     val steps = availableSteps.sorted().take(availableWorkers)
-    val nextSequence = sequence + steps.map { Pair(it, currentTime)}
+    val nextSchedule = schedule + steps.map { Pair(it, currentTime)}
 
-    val nextCompletedStepTime = nextSequence
+    val nextCompletedStepTime = nextSchedule
         .filterKeys { currentSteps.contains(it) || steps.contains(it) }
         .map { (step, start) -> start + stepTime(step) }
         .min()!!
 
-    return scheduleHelper(nextSequence, dependencies, allSteps, numWorkers, stepTime, nextCompletedStepTime)
+    return scheduleHelper(nextSchedule, dependencies, allSteps, numWorkers, stepTime, nextCompletedStepTime)
 }
 
 /**
